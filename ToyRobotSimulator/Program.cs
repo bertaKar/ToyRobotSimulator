@@ -56,7 +56,7 @@ namespace ToyRobotSimulator
         {
             int lineNo = 0;
             //Reading the input commands
-            using (var reader = new StreamReader("Input1.txt"))
+            using (var reader = new StreamReader("../../InputFiles/Input4.txt", System.Text.Encoding.UTF8))
             {
                 string line;
 

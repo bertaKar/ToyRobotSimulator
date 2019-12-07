@@ -33,5 +33,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="InputFiles\Input4.txt" />
+    <None Include="InputFiles\Input2.txt" />
+    <None Include="InputFiles\Input1.txt" />
+    <None Include="InputFiles\Input3.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="InputFiles\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
