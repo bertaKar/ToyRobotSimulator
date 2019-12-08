@@ -38,6 +38,8 @@
     <None Include="InputFiles\Input2.txt" />
     <None Include="InputFiles\Input1.txt" />
     <None Include="InputFiles\Input3.txt" />
+    <None Include="InputFiles\Input5.txt" />
+    <None Include="InputFiles\Input6.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="InputFiles\" />
