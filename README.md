@@ -13,17 +13,17 @@ This is a Toy Robot Simulator. Toy Robot is moving according to instructions on 
 
 
 The commands are "PLACE", "MOVE", "LEFT", "RIGHT" and "REPORT".
-"PLACE" command, places the Toy Robot in position accordinf to coordinates.
-"MOVE" makes Toy Robot take a steo forward its facing direction.
-"LEFT" changes Toy Robot's facing to the one on the left.
-"RIGHT" changes Toy Robot's facing to the one on the right.
-"REPORT" finishes movement and prints the output.
+"PLACE" command places the Toy Robot in position according to coordinates.
+"MOVE" command makes Toy Robot take a steo forward its facing direction.
+"LEFT" command changes Toy Robot's facing to the one on the left.
+"RIGHT" command changes Toy Robot's facing to the one on the right.
+"REPORT" command finishes movement and prints the output.
 
-Toy Robot should ignore any commands before the initial "PLACE" command. Toy Robot ignores any steps that would cause it to fall off the table.
+Toy Robot ignores all commands before the initial "PLACE" command. Toy Robot ignores all steps that cause the robot to fall off the table.
 
 ### Compilation
 
-Program can be compiled in an IDE that supports C# i.e. Visual Studio.
+The program can be compiled in an IDE that supports C# i.e. Visual Studio.
 
 ### Input Files
 
